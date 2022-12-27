@@ -19,6 +19,7 @@ body{
 }
 .container .text.first-text{
     color: white;
+    font-size: 150px;
 
 }
 .text.sec-text::before{
@@ -43,7 +44,7 @@ body{
 }
 div{
     text-align: center;
-    margin-top: 90px;
+    margin-top: -20px;
 }
 .calform{
     width: 500px;
