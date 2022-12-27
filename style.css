@@ -1,0 +1,157 @@
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0;
+    background: none;
+    background: rgb(61, 56, 56);
+    user-select: none;
+    overflow: hidden;
+}
+.container{
+    font-family : Arial Narrow;
+}
+.container .text{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.container .text.first-text{
+    color: white;
+
+}
+.text.sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(61, 56, 56);
+    border-left: 2px solid white;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+        100%{
+            left: 0%;
+        }
+    
+}
+div{
+    text-align: center;
+    margin-top: 60px;
+}
+.calform{
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.25px;
+    text-align: center;
+    user-select: none;
+}
+#answer-display{
+     background-color: white;
+     border: 2px solid white;
+     border-radius: 35px;
+     font-size: 22px;
+     font-weight: 400;
+     height: 50px;
+     color: rgb(28, 27, 27);
+     margin-bottom: 5px;
+     user-select: none;
+}
+.num-btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    background-color: wheat;
+    user-select: none;
+}
+.oprator{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    transition: 0.25px;
+    cursor: pointer;
+    user-select: none;
+}
+.oprator:hover{
+    background-color: white;
+    user-select: none;
+}
+
+.oprator2{
+    width: 116px;
+    height: 55px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    user-select: none;
+}
+#zero{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    background-color: wheat;
+    user-select: none;
+}
+
+.num-btn2{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    transition: 0.25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+@media (max-width:500px) {
+    div{
+        margin-top: -5px;
+    }
+}
+
+@media (max-width:450px) {
+    div{
+        margin-top: -5px;
+    }
+}
+
+@media (max-width:400px) {
+    div{
+        margin-top: -5px;
+    }
+}
+
+@media (max-width:350px) {
+    div{
+        margin-top: -5px;
+    }
+}
+
+@media (max-width:300px) {
+    div{
+        margin-top: -5px;
+    }
+}
