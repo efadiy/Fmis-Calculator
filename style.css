@@ -43,7 +43,7 @@ body{
 }
 div{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 .calform{
     width: 500px;
@@ -128,35 +128,30 @@ div{
 
 @media (max-width:500px) {
     div{
-        margin-top: 60px;
-        font-size: 40px;
+        margin-top: 80px;
     }
 }
 
 @media (max-width:450px) {
     div{
-        margin-top: 60px;
-        font-size: 40px;
+        margin-top: 80px;
     }
 }
 
 @media (max-width:400px) {
     div{
-        margin-top: 60px;
-        font-size: 40px;
+        margin-top: 80px;
     }
 }
 
 @media (max-width:350px) {
     div{
-        margin-top: 60px;
-        font-size: 40px;
+        margin-top: 80px;
     }
 }
 
 @media (max-width:300px) {
     div{
-        margin-top: 60px;
-        font-size: 40px;
+        margin-top: 80px;
     }
 }
