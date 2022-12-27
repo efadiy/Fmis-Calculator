@@ -44,7 +44,7 @@ body{
 }
 div{
     text-align: center;
-    margin-top: -30px;
+    margin-top: -35px;
 }
 .calform{
     width: 500px;
@@ -129,30 +129,30 @@ div{
 
 @media (max-width:500px) {
     div{
-        margin-top: 80px;
+        margin-top: 65px;
     }
 }
 
 @media (max-width:450px) {
     div{
-        margin-top: 80px;
+        margin-top: 65px;
     }
 }
 
 @media (max-width:400px) {
     div{
-        margin-top: 80px;
+        margin-top: 65px;
     }
 }
 
 @media (max-width:350px) {
     div{
-        margin-top: 80px;
+        margin-top: 65px;
     }
 }
 
 @media (max-width:300px) {
     div{
-        margin-top: 80px;
+        margin-top: 65px;
     }
 }
