@@ -9,7 +9,7 @@ body{
     overflow: hidden;
 }
 .container{
-    font-family : Arial Narrow;
+    font-family : Tahoma;
 }
 .container .text{
     position: relative;
@@ -44,7 +44,7 @@ body{
 }
 div{
     text-align: center;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 .calform{
     width: 500px;
