@@ -126,3 +126,9 @@ div{
     cursor: pointer;
     user-select: none;
 }
+
+@media only screen and (max-width: 500px) {
+    div {
+          margin-top: -10px;
+    }
+}
