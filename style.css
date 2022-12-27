@@ -128,30 +128,30 @@ div{
 
 @media (max-width:500px) {
     div{
-        margin-top: -5px;
+        margin-top: 40px;
     }
 }
 
 @media (max-width:450px) {
     div{
-        margin-top: -5px;
+        margin-top: 40px;
     }
 }
 
 @media (max-width:400px) {
     div{
-        margin-top: -5px;
+        margin-top: 40px;
     }
 }
 
 @media (max-width:350px) {
     div{
-        margin-top: -5px;
+        margin-top: 40px;
     }
 }
 
 @media (max-width:300px) {
     div{
-        margin-top: -5px;
+        margin-top: 40px;
     }
 }
