@@ -44,7 +44,7 @@ body{
 }
 div{
     text-align: center;
-    margin-top: -35px;
+    margin-top: -90px;
 }
 .calform{
     width: 500px;
@@ -61,7 +61,7 @@ div{
 #answer-display{
      background-color: white;
      border: 2px solid white;
-     border-radius: 35px;
+     border-radius: 20px;
      font-size: 22px;
      font-weight: 400;
      height: 50px;
@@ -72,17 +72,18 @@ div{
 .num-btn{
     width: 55px;
     height: 55px;
-    border-radius: 50%;
+    border-radius: 20px;
     font-size: 22px;
     font-weight: 400;
     margin: 2px;
-    background-color: wheat;
+    background-color: rgb(130, 124, 116);
     user-select: none;
+    cursor: pointer;
 }
 .oprator{
     width: 55px;
     height: 55px;
-    border-radius: 50%;
+    border-radius: 20px;
     font-size: 22px;
     font-weight: 400;
     margin: 2px;
@@ -105,26 +106,28 @@ div{
     user-select: none;
 }
 #zero{
-    width: 55px;
+    width: 115px;
     height: 55px;
-    border-radius: 50%;
+    border-radius: 20px;
     font-size: 22px;
     font-weight: 400;
     margin: 2px;
-    background-color: wheat;
+    background-color: rgb(130, 124, 116);
     user-select: none;
+    cursor: pointer;
 }
 
 .num-btn2{
     width: 55px;
     height: 55px;
-    border-radius: 50%;
+    border-radius: 20px;
     font-size: 22px;
     font-weight: 400;
     margin: 2px;
-    transition: 0.25px;
-    cursor: pointer;
+    background-color: rgb(48, 98, 142);
+    color: white;
     user-select: none;
+    cursor: pointer;
 }
 
 #answer-displau{
@@ -135,4 +138,28 @@ div{
     div {
           margin-top: -20px;
     }
+}
+.oprator4 {
+    width: 245px;
+    height: 55px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    background-color: rgb(48, 98, 142);
+    color: white;
+    user-select: none;
+    cursor: pointer;
+}
+.oprator6 {
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 2px;
+    background-color: rgb(177, 116, 46);
+    color: white;
+    user-select: none;
+    cursor: pointer;
 }
