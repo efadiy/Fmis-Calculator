@@ -78,7 +78,6 @@ div{
     margin: 2px;
     background-color: rgb(130, 124, 116);
     user-select: none;
-    cursor: pointer;
 }
 .oprator{
     width: 55px;
@@ -88,7 +87,6 @@ div{
     font-weight: 400;
     margin: 2px;
     transition: 0.25px;
-    cursor: pointer;
     user-select: none;
 }
 .oprator:hover{
@@ -114,7 +112,6 @@ div{
     margin: 2px;
     background-color: rgb(130, 124, 116);
     user-select: none;
-    cursor: pointer;
 }
 
 .num-btn2{
@@ -127,7 +124,6 @@ div{
     background-color: rgb(48, 98, 142);
     color: white;
     user-select: none;
-    cursor: pointer;
 }
 
 #answer-displau{
@@ -149,7 +145,6 @@ div{
     background-color: rgb(48, 98, 142);
     color: white;
     user-select: none;
-    cursor: pointer;
 }
 .oprator6 {
     width: 180px;
@@ -161,5 +156,4 @@ div{
     background-color: rgb(177, 116, 46);
     color: white;
     user-select: none;
-    cursor: pointer;
 }
