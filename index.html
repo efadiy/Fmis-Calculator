@@ -15,13 +15,6 @@
          <span class="text first-text"></span>
          <span class="text sec-text">FmisBot :</span>
     </div>
-
-    <script> const buttons = document.querySelectorAll('input[type="button"]')
-     for(let btn of buttons) {
-        btn.addEventListener("click" , () => {
-            navigator.bibrate(500) })
-            }
-   </script>
     <br/>
     <br />
     <br/>
@@ -53,5 +46,11 @@
         <input type="button" class="num-btn2" value="←"
         onclick="calform.answer .value=calform.answer .value.substring(0,calform.answer .value.length*1-1)" />
     </form>
+    <script> const buttons = document.querySelectorAll('input[type="button"]')
+        for(let btn of buttons) {
+           btn.addEventListener("click" , () => {
+               navigator.bibrate(500) })
+               }
+      </script>
 </body>
 </html>
