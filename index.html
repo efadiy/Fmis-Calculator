@@ -42,7 +42,7 @@
         <input type="button" class="num-btn" value="." onclick="calform.answer .value+='.'" />
         <input type="button" class="oprator" value="+" onclick="calform.answer .value+='+'" />
         <br />
-        <input type="button" class="oprator6" value="=" onclick="calform.answer .value=eval(calform.answer.value)" />
+        <input type="button" class="oprator6" value="=" onclick="calform.answer .value=(eval(calform.answer.value) == undefined)?" " :eval(calform.answer.value) />
         <input type="button" class="num-btn2" value="←"
         onclick="calform.answer .value=calform.answer .value.substring(0,calform.answer .value.length*1-1)" />
     </form>
