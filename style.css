@@ -1,14 +1,29 @@
+html {
+    background: rgb(61, 56, 56);
+}
+
 body{
-    display: flex;
     justify-content: center;
     min-height: 100vh;
-    padding: 0;
-    background: none;
-    background: rgb(61, 56, 56);
+    margin-left: auto;
+    margin-right: auto;
     user-select: none;
     overflow: hidden;
 }
+
+
+@media (max-width: 767px) {
+    .text{
+        top: -90px;
+    }
+    .container{
+        position: fixed;
+    }
+}
 .container{
+    margin-top: 60px;
+    padding: 0;
+    width: 100%;
     font-family : Tahoma;
 }
 .container .text{
@@ -20,7 +35,6 @@ body{
 .container .text.first-text{
     color: white;
     font-size: 150px;
-
 }
 .text.sec-text::before{
     content: "";
@@ -37,9 +51,9 @@ body{
     40%, 60%{
         left: 100%;
     }
-        100%{
-            left: 0%;
-        }
+    100%{
+        left: 0%;
+    }
     
 }
 div{
@@ -47,7 +61,7 @@ div{
     margin-top: -100px;
 }
 .calform{
-    width: 500px;
+    width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
     position: absolute;
